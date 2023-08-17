@@ -7,9 +7,9 @@
       // ^ Uses it as button primary color, such as start/pause screen buttons, settings buttons and common buttons
     "$setting_button_icon_color": [ 1, 1, 1 ], // RBG values but divided by 1
       // ^ Change every AUI's related icons color. ( ONLY BUTTONS )
-    "$oled_mode": false, // true/false
+    "$oled_mode": true, // true/false
       // ^ Change the theme into pure black for OLED displays.
-    "$allow_bottom_bar_customization": false, // true/false
+    "$allow_bottom_bar_customization": true, // true/false
       // ^ Allows status bar to be customized, since they're locked by default so the OLED theme can be applied.
       //   enabling this option will make bottom bar unaffected with OLED mode.
     "$bottom_bar_background_alpha": 0.75, // transparent ( 0-1 ) [ Default : 0 ]
@@ -43,13 +43,13 @@
       // ^ Change toggle icon color.
     "$toggle_background_color": [ 1, 1, 1 ], // RBG values but divided by 1
       // ^ Change toggle background color.
-    "$background_renderer": false, // false/true, texture can be editable via
+    "$background_renderer": true, // false/true, texture can be editable via
                                    // "custom_texture/background"
                                    // "custom_texture/background_blur"
       // ^ Enable the background aswell blur ones.
-    "$custom_loading_background_overworld": false, // Default: false | enables background when entering portal and stuff
-    "$custom_loading_background_nether": false, // Default: false | ^ here
-    "$custom_loading_background_theend": false, // Default: false | ^^ here
+    "$custom_loading_background_overworld": true, // Default: true | enables background when entering portal and stuff
+    "$custom_loading_background_nether": true, // Default: true | ^ here
+    "$custom_loading_background_theend": true, // Default: true | ^^ here
       
   // Common settings
     "$configname": "Default",
@@ -64,6 +64,6 @@
       // ^ Removes marketplace button in start screen
     "$legacy_ui_layout": false, // [ Default : false ]
       // ^ Enables Old Arcdustry-UI layout
-    "$main_menu_background": false // [ Default : false ]
+    "$main_menu_background": true // [ Default : true ]
       // ^ Enables background for play/pause screen as accessibility
 }}
